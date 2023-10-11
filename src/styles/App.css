@@ -1,0 +1,24 @@
+html{
+    font-size: 16px;
+ }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+  }
+
+#root {
+    font-size: 16px;
+    background: linear-gradient(283deg, rgba(6,5,22,1) 0%, rgba(5,11,31,1) 53%, rgba(4,9,25,1) 100%);
+    /* border: 2px solid red; */
+}
+
+.hide{
+    display: none;
+}

@@ -1,0 +1,90 @@
+.transition-transform {
+  transition-duration: 0.15s;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hoverScale:hover {
+  transform: scale(1.08);
+}
+
+.duration-300 {
+    transition-duration: 300ms;
+}
+
+.shadow{
+    box-shadow:0 0 20px 0 rgb(255 255 255 / 2%)
+}
+
+.hvrSpace:hover{
+  letter-spacing: 25px;
+  transition-duration: 300ms;
+  transition-property: letter-spacing;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Roboto{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: white;
+  letter-spacing: 4px;
+}
+
+.borderDesign{
+  border: 2px solid rgb(255, 255, 255)
+}
+
+.customButton {
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 2em;
+  padding: .31em .8em;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 2px solid white;
+  position: relative;
+  height: auto;
+  width: auto;
+  letter-spacing: 5px;
+  z-index: 10;
+}
+.customButton:hover {
+  color: black;
+}
+.customButton::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 0%;
+  background-color: white;
+  z-index: -10;
+  transition-property: width;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  /* border-color: black; */
+}
+.customButton:hover::before {
+  width: 100%;
+}
+
+.Hide{
+  display: none;
+}
