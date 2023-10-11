@@ -6,7 +6,7 @@ let prop = {
   backgroundColor: "transparent",
   fontFamily: 'Roboto',
   letterSpacing:"5px",
-  minHeight:"8em",
+  minHeight:"5em",
   height:"100%"
 }
 function Header() {

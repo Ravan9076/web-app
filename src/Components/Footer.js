@@ -17,7 +17,7 @@ let prop = {
 function Footer() {
   return (
     <>
-    <footer className="footer" style={{height:"max-content",width:"max-content",margin:"auto"}}>
+    <footer className="footer center" style={{height:"10em",width:"100%"}}>
       <h1 className="hvrSpace pointer" style={{color:"white"}}>ABOUT·US</h1>
     </footer>
     </>

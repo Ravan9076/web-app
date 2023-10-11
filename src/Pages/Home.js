@@ -1,16 +1,25 @@
 import Card from "../Components/card";
 import { useEffect } from "react";
 
+
 function Home(){
 
 // let btn = Array.from(document.querySelectorAll(".HomeCard button"));
+const imgSrc = [{img:"img1.jpg"},{img:"img2.jpg"}];
 
-function HandleClick(){
+function HandleClick(e){
  let MiniCart = document.getElementsByClassName("MiniCart")[0];
+ let btn = e.target
+
   if(MiniCart.style.display==="none"){
+    btn.classList.toggle("isActive");
     MiniCart.style.display="flex";
-  }else{
-    MiniCart.style.display="none";}
+  }else if(MiniCart.style.display==="flex"){
+    if(btn.classList.contains("isActive")){
+      btn.classList.toggle("isActive");
+      MiniCart.style.display="none";}
+  }
+
 }
 
   let sty={
@@ -18,9 +27,12 @@ function HandleClick(){
   }
     return(
       <>
-      <div className="HomeCard" style={{display:"flex",height:"30em",justifyContent:"space-evenly",margin:"2em 0"}}>
-      <Card HandleClick={HandleClick} />
-      <Card HandleClick={HandleClick} />
+      <div className="HomeCard" style={{display:"flex",height:"30em",justifyContent:"space-evenly",margin:"1em 0"}}>
+      {imgSrc.map(function(crrVal,index){
+                    return(
+                        <Card key={index} imgSrc={crrVal.img } HandleClick={HandleClick} />
+                    )
+                })}
       </div>
       </>
     )
