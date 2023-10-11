@@ -1,5 +1,4 @@
-import Card from "../Components/card";
-import { useEffect } from "react";
+import Card from "./card";
 
 
 function Home(){
@@ -30,7 +29,7 @@ function HandleClick(e){
       <div className="HomeCard" style={{display:"flex",height:"30em",justifyContent:"space-evenly",margin:"1em 0"}}>
       {imgSrc.map(function(crrVal,index){
                     return(
-                        <Card key={index} imgSrc={crrVal.img } HandleClick={HandleClick} />
+                        <Card width="30%" key={index} imgSrc={crrVal.img } HandleClick={HandleClick} />
                     )
                 })}
       </div>

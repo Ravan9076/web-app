@@ -5,7 +5,7 @@ function Card(props) {
   return (
     <div
     style={{
-        width: "30%",
+        width: props.width,
         height: "100%"
     }}
 >

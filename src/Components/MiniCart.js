@@ -1,13 +1,15 @@
-import Card from "../Components/card";
+import { NavLink, useNavigate } from "react-router-dom";
+import Card from "./card";
 
 
 
 function MiniCart() {
     const imgSrc = [{ img: "img3.jpg" }, { img: "img4.jpg" }, { img: "img5.jpg" }];
 
+    let Navigate = useNavigate();
 
     function HandleClick() {
-        
+        Navigate("/Product")
     }
 
     return (
@@ -16,7 +18,7 @@ function MiniCart() {
             <div style={{ display: "flex", justifyContent: "space-evenly",overflow:"hidden",width:"100%",height:"100%" }}>
                 {imgSrc.map(function (crrVal, index) {
                     return (
-                        <Card onClick={HandleClick} key={index} imgSrc={crrVal.img} HandleClick={HandleClick} />
+                        <Card width="30%" onClick={HandleClick} key={index} imgSrc={crrVal.img} HandleClick={HandleClick} />
                     )
                 })}
             </div>
