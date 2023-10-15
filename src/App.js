@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
     <Header />
     <Routes>
-      <Route path="/" exact element={<Index />} />
-      <Route path="/Product" exact element={<Product />} />
+      <Route path="/" element={<Index />} />
+      <Route path="/Product/:Product_Type/:Company" element={<Product />} />
     </Routes>
     ,<Footer />
     </BrowserRouter>

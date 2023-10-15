@@ -1,7 +1,7 @@
+import { useState } from "react";
 import "../styles/transition.css";
 
 function Card(props) {
-  // console.log(props.imgSrc.img);
   return (
     <div
     style={{
@@ -20,13 +20,13 @@ function Card(props) {
             overflow: "hidden",
         }}
     >
-        <img
+        <img className="transitionAll"
             style={{
                 width: "100%",
                 height: "100%",
                 borderRadius: "10px",
             }}
-            src={`https://picsum.photos/1920/1080?random=${Math.random()}`}
+            src={`/images/${props.imgSrc}`}
             alt="your-image-description-here"
         />
         <div
@@ -37,7 +37,7 @@ function Card(props) {
                 transform: "translateX(-50%) translateY(-50%)",
             }}
         >
-            <button onClick={props.HandleClick} className="customButton">CLICK</button>
+            <button index={props.index} onClick={props.HandleClick} className="customButton">{props.text}</button>
         </div>
     </div>
 </div>

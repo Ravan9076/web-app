@@ -1,0 +1,278 @@
+{
+    "Category": [
+        {
+            "Product_Type": "Mobile",
+            "imgSrc": "img1.jpg",
+            "Minicart": {
+                "Minicart": [
+                    {
+                        "imgSrc": "img10.jpg",
+                        "Company": "POCO"
+                    },
+                    {
+                        "imgSrc": "img11.jpg",
+                        "Company": "IQOO"
+                    },
+                    {
+                        "imgSrc": "img12.jpg",
+                        "Company": "iPhone"
+                    }
+                ],
+                "Products": {
+                    "poco": [
+                        {
+                            "imgSrc": "img2.jpg",
+                            "Models": "POCO X3 Pro"
+                        },
+                        {
+                            "imgSrc": "img3.jpg",
+                            "Models": "POCO M3 Pro 5G"
+                        },
+                        {
+                            "imgSrc": "img4.jpg",
+                            "Models": "POCO F3 GT"
+                        }
+                    ],
+                    "iqoo": [
+                        {
+                            "imgSrc": "img14.jpg",
+                            "Models": "IQOO 7"
+                        },
+                        {
+                            "imgSrc": "img15.jpg",
+                            "Models": "IQOO 7 Legend"
+                        },
+                        {
+                            "imgSrc": "img16.jpg",
+                            "Models": "IQOO Z3"
+                        },
+                        {
+                            "imgSrc": "img17.jpg",
+                            "Models": "IQOO 3"
+                        },
+                        {
+                            "imgSrc": "img18.jpg",
+                            "Models": "IQOO 5"
+                        },
+                        {
+                            "imgSrc": "img19.jpg",
+                            "Models": "IQOO 5 Pro"
+                        },
+                        {
+                            "imgSrc": "img20.jpg",
+                            "Models": "IQOO 7"
+                        },
+                        {
+                            "imgSrc": "img21.jpg",
+                            "Models": "IQOO 7 Legend"
+                        },
+                        {
+                            "imgSrc": "img22.jpg",
+                            "Models": "IQOO Z3"
+                        },
+                        {
+                            "imgSrc": "img23.jpg",
+                            "Models": "IQOO 3"
+                        }
+                    ],
+                    "iphone": [
+                        {
+                            "imgSrc": "img12.jpg",
+                            "Models": "iPhone 13 Pro Max"
+                        },
+                        {
+                            "imgSrc": "img13.jpg",
+                            "Models": "iPhone 13 Pro"
+                        },
+                        {
+                            "imgSrc": "img14.jpg",
+                            "Models": "iPhone 13"
+                        },
+                        {
+                            "imgSrc": "img17.jpg",
+                            "Models": "iPhone 13 mini"
+                        },
+                        {
+                            "imgSrc": "img19.jpg",
+                            "Models": "iPhone 12 Pro Max"
+                        },
+                        {
+                            "imgSrc": "img10.jpg",
+                            "Models": "iPhone 12 Pro"
+                        },
+                        {
+                            "imgSrc": "img9.jpg",
+                            "Models": "iPhone 12"
+                        },
+                        {
+                            "imgSrc": "img15.jpg",
+                            "Models": "iPhone 12 mini"
+                        },
+                        {
+                            "imgSrc": "img18.jpg",
+                            "Models": "iPhone SE"
+                        },
+                        {
+                            "imgSrc": "img20.jpg",
+                            "Models": "iPhone 11 Pro Max"
+                        },
+                        {
+                            "imgSrc": "img4.jpg",
+                            "Models": "iPhone 11 Pro"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Product_Type": "Laptop",
+            "imgSrc": "img13.jpg",
+            "Minicart": {
+                "Minicart": [
+                    {
+                        "imgSrc": "img17.jpg",
+                        "Company": "ASUS"
+                    },
+                    {
+                        "imgSrc": "img18.jpg",
+                        "Company": "Alienware"
+                    },
+                    {
+                        "imgSrc": "img19.jpg",
+                        "Company": "HP"
+                    }
+                ],
+                "Products": {
+                    "asus": [
+                        {
+                            "imgSrc": "4",
+                            "Models": "Zenbook 14 OLED (UX3402)"
+                        },
+                        {
+                            "imgSrc": "img5.jpg",
+                            "Models": "Zenbook Pro 14 OLED (UX6404)"
+                        },
+                        {
+                            "imgSrc": "img10.jpg",
+                            "Models": "ROG Zephyrus G16 (2023)"
+                        },
+                        {
+                            "imgSrc": "img17.jpg",
+                            "Models": "ROG Strix G16"
+                        },
+                        {
+                            "imgSrc": "img18.jpg",
+                            "Models": "TUF Gaming F15 (2023)"
+                        },
+                        {
+                            "imgSrc": "img9.jpg",
+                            "Models": "TUF Gaming F15 (2022)"
+                        },
+                        {
+                            "imgSrc": "img10.jpg",
+                            "Models": "Zephyrus S15 GX502L"
+                        },
+                        {
+                            "imgSrc": "img19.jpg",
+                            "Models": "Zenbook 14X OLED (UX3404,2023)"
+                        },
+                        {
+                            "imgSrc": "img12.jpg",
+                            "Models": "ROG Strix G15 Advantage Edition"
+                        },
+                        {
+                            "imgSrc": "img17.jpg",
+                            "Models": "Zenbook Pro Duo 15 OLED (UX582)"
+                        }
+                    ],
+
+                    "alienware": [
+                        {
+                            "imgSrc": "14",
+                            "Models": "M18"
+                        },
+                        {
+                            "imgSrc": "15",
+                            "Models": "M16"
+                        },
+                        {
+                            "imgSrc": "16",
+                            "Models": "x16"
+                        },
+                        {
+                            "imgSrc": "17",
+                            "Models": "x14"
+                        },
+                        {
+                            "imgSrc": "18",
+                            "Models": "M15 R7"
+                        },
+                        {
+                            "imgSrc": "19",
+                            "Models": "M15 R4 RTX 3080"
+                        },
+                        {
+                            "imgSrc": "20",
+                            "Models": "x15 RTX 3070 P111F R1"
+                        },
+                        {
+                            "imgSrc": "21",
+                            "Models": "m18"
+                        },
+                        {
+                            "imgSrc": "22",
+                            "Models": "m16"
+                        },
+                        {
+                            "imgSrc": "23",
+                            "Models": "m15 R4 RTX 3070"
+                        }
+                    ],
+
+                    "msi": [
+                        {
+                            "imgSrc": "24",
+                            "Models": "GE76 Raider"
+                        },
+                        {
+                            "imgSrc": "25",
+                            "Models": "GE66 Raider"
+                        },
+                        {
+                            "imgSrc": "26",
+                            "Models": "GS66 Stealth"
+                        },
+                        {
+                            "imgSrc": "27",
+                            "Models": "GP66 Leopard"
+                        },
+                        {
+                            "imgSrc": "28",
+                            "Models": "GF65 Thin"
+                        },
+                        {
+                            "imgSrc": "29",
+                            "Models": "GF63 Thin"
+                        },
+                        {
+                            "imgSrc": "30",
+                            "Models": "GS76 Stealth"
+                        },
+                        {
+                            "imgSrc": "31",
+                            "Models": "GS66 Stealth"
+                        },
+                        {
+                            "imgSrc": "32",
+                            "Models": "GP76 Leopard"
+                        },
+                        {
+                            "imgSrc": "33",
+                            "Models": "GP66 Leopard"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -88,3 +88,7 @@ h1{
 .Hide{
   display: none;
 }
+
+.transitionAll{
+  transition: all 0.3s ease;
+}
